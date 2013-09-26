@@ -8,6 +8,9 @@
                  [ring/ring-devel "1.2.0"]
                  [ring/ring-httpcore-adapter "0.3.5"]
                  [ring/ring-jetty-adapter "0.3.5"]
+                 [metrics-clojure "1.0.1"]
+                 [metrics-clojure-ring "1.0.1"]
+                 
                  ]
   :plugins [[lein-ring "0.8.5"]]
   :ring {:handler camera2.handler/app}
