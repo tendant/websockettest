@@ -4,7 +4,9 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [compojure "1.1.5"]
                  [aleph "0.3.0"]
-                 [lamina "0.5.0"]]
+                 [lamina "0.5.0"]
+                 [ring/ring-devel "1.2.0"]
+                 ]
   :plugins [[lein-ring "0.8.5"]]
   :ring {:handler camera2.handler/app}
   :main camera2.handler
