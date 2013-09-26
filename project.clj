@@ -5,15 +5,7 @@
                  [compojure "1.1.5"]
                  [aleph "0.3.0"]
                  [lamina "0.5.0"]
-                 [ring/ring-core "1.1.7"]
-                 [ring/ring-devel "1.2.0"]
-                 [ring/ring-httpcore-adapter "0.3.5"]
-                 [ring/ring-jetty-adapter "0.3.5"]
-                 [metrics-clojure "1.0.1"]
-                 [metrics-clojure-ring "1.0.1"]
-                 [org.clojure/tools.logging "0.2.6"]
-                 [ch.qos.logback/logback-classic "1.0.9"]
-                 ]
+                 [ring/ring-core "1.2.0"]]
   :plugins [[lein-ring "0.8.5"]]
   :ring {:handler camera2.handler/app}
   :main camera2.handler
